@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class AudioButton : MonoBehaviour
 {
-    public Button button;
-    public Sprite on, off;
+    [SerializeField] private Button button;
+    [SerializeField] private Sprite on, off;
 
     private void Awake()
     {
